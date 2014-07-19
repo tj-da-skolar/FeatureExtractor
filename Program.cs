@@ -22,6 +22,7 @@ namespace FeatureExtractor
         {
           Console.WriteLine(Program.points.bodyMovement(Program.points, Program.pointsPrev));
           Console.WriteLine(Program.points.leaning(Program.points, Program.pointsPrev));
+          Console.WriteLine("at frame no " + Program.points.arr[Points.FRAME_NO] + "\n");
         }
         if ((double) num != (double) Program.points.arr[Points.TIMESTAMP])
         {
